@@ -1,0 +1,534 @@
+body{
+	background-color: darkgrey;
+	width: 1350px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+footer{
+	width: 100%;
+	height: 70px;
+	background: grey;
+	margin-top: 100%;
+}
+ul{
+	margin-top: -44px;
+	list-style-type:none;
+	margin-left: 20px;
+}
+li{
+	display: inline;
+	margin-left: 50px;
+}
+li a{
+	text-decoration: none;
+	color:black;
+	font-size: 18px; 
+	font-family: Arial, Helvetica, sans-serif;
+}
+li a:hover{
+	text-decoration: underline;
+}
+nav{
+	background-color: white;
+	height: 100px;
+	width: 100%;
+}
+img{
+	height: 80px;
+	width: 80px;
+	margin:10px;
+}
+main p{
+	text-align: center;
+	font-size: 25px;
+}
+input{
+	background-color:grey;
+	border:solid 1px darkgrey;
+	border-radius: 5px;
+	padding: 5px 20px;
+  	text-align: left;
+  	color:white;
+  	z-index: 1000;
+}
+.profileSettings{
+	width: 500px;
+	height: 500px;
+	border: solid;
+	background-color: black;
+}
+.profileSettings input{
+	background-color: white;
+	color: black;
+}
+.CommentPlace input{
+	background-color: white;
+	color: black;
+	border:solid 4px darkgrey;
+	width: 550px;
+	height: 26px; 
+	border-radius: 0px;
+}
+.CommentPlace input:hover{
+	border:solid 4px grey;
+}
+.CommentPlace button{
+	background-color: black;
+	opacity: 0.7;
+	width: 50px;
+	height: 34px;
+	border:none;
+	color: white;
+	border-radius: 3px;
+	margin-left: -4px;
+
+}
+.CommentPlace button:hover{
+	opacity: 1;
+}
+.commentWrite{
+	width: 646px;
+	height: 100%;
+	background-color: white;
+	border: solid 3px darkgrey;
+	border-radius:0px;
+}
+.CommentPlace{
+	border:solid 3px silver;
+	width: 652px; 
+	height: 100%;
+	background-color: darkgrey ;
+	color: black ;
+	margin:auto;
+	border-radius:3px;
+
+}
+.signup{
+	margin-left: -200px;
+}
+.sessionId{
+	float:right;
+	margin-right:100px;
+	margin-top: 40px;
+	text-decoration:none;
+	font-size: 19px;
+	color:black;
+}
+.CommentSubmit{
+	background-color: black;
+	border-radius: 3px;
+	color: white;
+	border: none;
+	width: 75px;
+	height: 30px;
+	text-align: center;
+
+	opacity: 0.7;
+}
+.CommentSubmitDiv{
+		margin-left: 573px;
+	margin-top: -30px;
+}
+.CommentSubmit:hover{
+	opacity: 1;
+}
+.commentForm{
+	margin-top: -30px;
+}
+.usernamePost{
+	background-color: grey;
+	width: 100%;
+	height: 25px;	
+	color:white;
+	text-align: center;
+	margin-top: -20px;
+}
+
+
+.productionInfoFasi{
+	background-color:green;
+	color:white;width:62px;
+	height:26px;
+	width: 80px;
+	text-align:center;
+	border-radius: 4px;
+	font-size: 20px;
+	margin-top: 361px;
+	margin-left: 616px;
+}
+.searchInp{
+color:black;
+background-color: white;
+}
+.searchSubmit{
+border: solid 1px darkgrey;
+text-align: center;
+}
+.searchSubmit:hover{
+background-color: darkgreen;
+border: none;
+}
+.productionInfoFasi a{
+	margin-left: 8px;
+}
+.infoImgDiv p {
+	margin-left: 640px;
+	margin-top: -480px;
+}
+.infoImgDiv{
+	border: solid 3px darkgrey;
+	width: 500.1px;
+	height:	500.1px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+.infoImgDiv img{
+	margin:auto;
+	width: 500.1px;
+	height:	500.1px;
+}
+.infoMain{
+	background-color:white;
+	border: solid 3px grey;
+	width: 900px;
+	height: 504px;
+	margin: auto;
+	margin-top: 30px;
+	border-radius: 9px;	
+}
+.indexA{
+	text-decoration: none;
+	color:white;
+	margin-left: 10px;
+}
+.indexA:hover{
+	color:red;
+}
+
+.homeMain{
+		background-color:silver;
+	width: 650px;
+	margin: auto;
+	border-radius: 9px;	
+}
+.searchFasi{
+	width: 70px;
+	background-color: white;
+	color: black;
+}
+.sellMain{
+		background-color:silver;
+	width: 100%;
+	height: 778px;
+	margin: auto;
+	margin-top: 20px;
+	border-radius: 9px;
+	border: solid 3px grey;
+}
+.signupMain{
+	background-color:silver;
+	width: 650px;
+	margin: auto;
+	border-radius: 9px;
+}
+.searchResult{
+  	margin: 0;
+  	padding: 0;
+  	float: left;
+}
+.searchResult img{
+	border-radius: 4px;
+}
+.searchResult:hover{
+	opacity: 0.8;
+}
+.indexMain{
+	background-color:silver;
+	width: 650px;
+	margin: auto;
+	border-radius: 9px;
+}
+.guitarSell{
+	border: solid;
+	width: 190px;
+	height: 190px;
+ 	list-style-type: none;
+  	margin:0;
+  	padding:0;
+  	overflow:hidden;
+  	float: left;
+}
+.guitarSell img{
+	width: 190px;
+	height: 190px;
+	position: inherit;
+	margin: auto;
+}
+.sellMain div{
+	border-radius: 4px;
+	border: solid 3px lightgrey;
+}
+
+
+.guitarSell img:hover{
+	opacity: 0.7;
+}
+.deleteButton{
+	width: 70px;
+	height: 22px;
+	background-color:red;
+	opacity: 0.7;
+	border-radius: 4px;
+	border: none;
+	cursor: pointer;
+	float: right;
+	margin-top: 2px;
+	margin-right: 2px;
+}
+.deleteButton:hover{
+	opacity: 1;
+}
+.deleteButton a{
+	text-align: center;
+	color: white;
+	font-size: 15px; 
+	text-decoration: none;
+	margin-left:6px;
+	margin-top:5px;
+}
+.form-signup{
+margin:auto;
+}
+.form-signup input:hover{
+	border:solid 1px black;
+}
+.form-signup button{
+	margin-left:60px;
+}
+.form-signup input{
+background-color: white;
+color: black;
+}
+.postTextArea{
+	border: solid 5px grey;
+	width: 650px;
+	height:300px ;
+	border-radius: 4px;
+	background-color: white;
+	min-width: 620px;
+	margin:auto;
+	margin-top: 20px;
+	color:black;
+}
+.postTextArea p{
+	margin: 20px;
+}
+.article1{
+	border: solid 2px grey;
+	background-color:white;
+	border-radius: 4px;
+	margin-left:-210px;
+	width: 620px;
+	height: 250px;
+	text-align: justify;
+	font-size:20px;
+	max-width: 600px;
+	min-width: 600px;
+	padding: 10px;
+}
+.article1:hover{
+	border: solid 2px black;
+}
+.likeHomePost{
+	text-align: center;
+	width: 75px;
+	height: 30px;
+	background-color:green;
+	opacity: 0.7;
+	color: white;
+	border-radius: 4px;
+	font-size: 15px; 
+	border: none;
+	margin-left:2px;
+	margin-top:203px;
+}
+.likeHomePost:hover{
+	opacity:1;
+}
+.likesubmit2{
+	text-align: center;
+	width: 75px;
+	height: 30px;
+	background-color:green;
+	opacity: 0.7;
+	color: white;
+	border-radius: 4px;
+	font-size: 15px; 
+	border: none;
+	cursor: pointer;
+	margin-left:2px;
+	margin-top: 228px;
+}
+.likesubmit2:hover{
+	opacity:1;
+}
+.likesubmit{
+height: 28px;
+font-size: 15px;
+margin-top: -30px;
+background-color: white;
+border: solid 1px black;
+width: 30px;
+margin-left: 85px;
+text-align: center;
+opacity: 0.7;
+border-radius:4px;
+}
+
+.postsubmit{
+	text-align: center;
+			width: 75px;
+	height: 30px;
+	background-color:black;
+		opacity: 0.7;
+	color: white;
+	border-radius: 4px;
+	font-size: 15px; 
+	border: none;
+	 cursor: pointer;
+	 margin-left: 340px;
+	 margin-top: 20px;
+}
+.postsubmit:hover{
+	opacity: 1;
+}
+.postForm{
+	margin-top: -30px;
+}
+.usernameField{
+	color:black;
+	text-decoration:none;
+	font-size: 19px;
+}
+.usernameFieldDiv{
+	margin-left: 1190px;
+	margin-top: -40px;
+}
+.submit-logout{
+	width: 90px;
+	height: 40px;
+	background-color:black;
+	opacity: 0.7;
+	color: white;
+	border-radius: 4px;
+	font-size: 16px; 
+	border: none;
+	cursor: pointer;
+	margin-top: 18px;
+}
+.submit-logout:hover{
+ opacity: 1;
+}
+
+.login-submit{
+	width: 90px;
+	height: 40px;
+	background-color:black;
+		opacity: 0.7;
+	color: white;
+	border-radius: 4px;
+	font-size: 16px; 
+	border: none;
+	 cursor: pointer;
+}
+.login-submit:hover{
+	opacity: 1;
+}
+.inp1{
+	color: black;
+	height: 30px;
+	font-size: 17px;
+	margin-left: 50px;
+	background-color: white;
+}
+.inp2:hover{
+	border:solid 1px black;
+}
+.inp1:hover{
+	border:solid 1px black;
+}
+.imageSelect{
+	border: solid 1px darkred;
+	height: 70px;
+	width:65px;
+	margin-top:-90px;
+	margin-left:1265px;
+}
+
+.form2{
+	margin-left: 1070px;
+	margin-top: -47px;
+}
+.inp2{
+	color: black;
+	height: 30px;
+	font-size: 17px;
+	background-color: white;
+}
+.signup{
+	width: 105px;
+	height: 39px;
+	color:white;
+	background-color:#4c4c4c;
+	text-decoration: none;
+	border-radius: 4px;
+	font-size: 17px; 
+	border: none;
+	cursor: pointer;
+	margin-top: -30px;
+}
+.signupForm{
+		margin-left:105%;
+		margin-top: -30px;
+}
+.form1{
+	margin-top: -48px;
+	margin-left: 40%;
+}
+.signup-button{
+	margin-top: -29px;
+	cursor: pointer;
+}
+.signup:hover{
+	background-color:black;
+}
+.phpsubmitsignup{
+		width: 90px;
+	height: 40px;
+	background-color:black;
+		opacity: 0.7;
+	color: white;
+	border-radius: 4px;
+	font-size: 16px; 
+	border: none;
+	 cursor: pointer;
+	 margin-left: 43px;
+	 margin-top: 20px;
+}
+.phpsubmitsignup:hover{
+ opacity: 1;
+}
+.section-default{
+	margin:20px;
+width: 211px;
+margin-left: 210px;
+padding: 12px;
+}
+.section-default h1{
+	text-align: center;
+}
+@media only screen and (max-width: 1024px) {
+	.form1{
+		margin-top: -48px;
+		margin-left: 60%;
+	}
+}

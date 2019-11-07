@@ -1,0 +1,39 @@
+.indexMain{
+	background-color:silver;
+	margin-top:20px;
+	height: 510px;
+	width: 79%;
+	float: right;
+}
+aside{
+	width: 100px;
+	height: 200px;
+	background-color: silver;
+	width: 20%;
+	height: 510px;
+	margin-top:20px;
+}
+.imageSelect img{
+	margin: auto;
+}
+.indexArticle{
+	margin:auto;
+	width: 95%;
+	height: 196px;
+	background-color: grey;
+	margin-top: 20px;
+
+}
+.indexArticle2{
+	width: 95%;
+	height: 220px;
+	background-color: grey;
+	margin:auto;
+}
+ul{
+	list-style-type:none;
+	margin-top: 25px;
+}
+.someonePosting{
+	color: white;
+}
